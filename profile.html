@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Profile - My Literary Journey</title>
+  <meta name="description"
+    content="Meet Earl Lawrence C. Cipres - 4th-year BSIT student and the reader behind this Great Books digital portfolio." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="brand" aria-label="My Literary Journey - Home">
+          <span class="brand__label">Great Books / Digital Portfolio</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="profile.html" class="active">Profile</a>
+          <a href="analyses.html">Analyses</a>
+          <a href="favorite.html">Favorite</a>
+          <a href="learning.html">Learning</a>
+          <a href="reflection.html">Reflection</a>
+        </nav>
+        <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-mobile"
+          aria-label="Open navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <nav class="nav-mobile" id="nav-mobile" aria-label="Mobile navigation">
+      <a href="index.html">Home</a>
+      <a href="profile.html" class="active">Profile</a>
+      <a href="analyses.html">Analyses</a>
+      <a href="favorite.html">Favorite</a>
+      <a href="learning.html">Learning</a>
+      <a href="reflection.html">Reflection</a>
+      <a href="sources.html">Sources</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- Page Header -->
+    <section class="page-header" aria-labelledby="profile-heading">
+      <div class="container">
+        <span class="eyebrow eyebrow--red">Section 01 - Student Profile</span>
+        <h1 class="headline-lg" id="profile-heading">The Reader<br>Behind the Pages.</h1>
+        <p class="page-subtitle">Earl Lawrence C. Cipres - BSIT 4th Year</p>
+      </div>
+    </section>
+
+    <!-- Profile Layout -->
+    <section aria-label="Student profile details">
+      <div class="container" style="padding-block: var(--space-xl);">
+        <div class="profile-layout">
+
+          <!-- Left: Photo -->
+          <div class="profile-photo-wrap">
+
+            <div class="profile-photo-container" id="profile-photo-container">
+              <!-- Natural profile photo (no grayscale filter) -->
+              <img id="student-photo" src="assets/images/student-photo.jpg"
+                alt="Earl Lawrence C. Cipres - BSIT 4th Year Student" class="profile-photo"
+                onerror="this.style.display='none';document.getElementById('student-photo-placeholder').style.display='flex';" />
+
+              <!-- Placeholder shown if photo file is missing -->
+              <div class="profile-photo-placeholder" id="student-photo-placeholder" style="display:none;" role="img"
+                aria-label="Student photo placeholder">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+                <p>Student Photo<br>Place your photo at:<br><code
+                    style="font-size:0.7rem;opacity:0.7;">assets/images/student-photo.jfif</code></p>
+              </div>
+            </div>
+
+            <!-- Student Info Table (below photo) -->
+            <div style="margin-top: var(--space-md);">
+              <table class="profile-info-table" aria-label="Student information">
+                <tbody>
+                  <tr>
+                    <td>Name</td>
+                    <td>Cipres, Earl Lawrence C.</td>
+                  </tr>
+                  <tr>
+                    <td>Course</td>
+                    <td>Bachelor of Science in Information Technology (BSIT)</td>
+                  </tr>
+                  <tr>
+                    <td>Year Level</td>
+                    <td>4th Year</td>
+                  </tr>
+                  <tr>
+                    <td>Section</td>
+                    <td>GEC-GB-NRt</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div><!-- /profile-photo-wrap -->
+
+          <!-- Right: Content -->
+          <div class="profile-content">
+
+            <!-- Section A -->
+            <div class="profile-section reveal">
+              <h2 class="profile-section__label">A - A Little About Me</h2>
+              <div class="profile-section__body">
+                <p>Hello! I'm Earl Lawrence C. Cipres, a fourth-year Bachelor of Science in Information Technology
+                  student. I enjoy learning new things, exploring technology, and discovering different ways to express
+                  ideas. As a student, I believe that learning does not only happen inside the classroom but also
+                  through the stories we read and the experiences we gain.</p>
+                <p>Through Great Books, I have the opportunity to explore different literary works, understand different
+                  perspectives, and learn more about people, society, and life.</p>
+              </div>
+            </div>
+
+            <hr class="divider divider--sm" />
+
+            <!-- Section B -->
+            <div class="profile-section reveal">
+              <h2 class="profile-section__label">B - My Interests &amp; Literary Experiences</h2>
+              <div class="profile-section__body">
+                <p>My interests include photography, music, fitness, and reading e-books. I enjoy creative activities
+                  because they allow me to explore ideas and express myself in different ways.</p>
+                <p>Reading literary works also gives me an opportunity to discover different characters, experiences,
+                  and viewpoints. Even when a story comes from a different time or culture, its themes can still connect
+                  to real-life situations. Analyzing these works helps me look beyond the story and think about the
+                  deeper meaning behind it.</p>
+              </div>
+            </div>
+
+            <hr class="divider divider--sm" />
+
+            <!-- Section C -->
+            <div class="profile-section reveal">
+              <h2 class="profile-section__label">C - My Expectations in Great Books</h2>
+              <div class="profile-section__body">
+                <p>Before taking Great Books, I expected to learn about important literary masterpieces and understand
+                  the stories behind them. Throughout the course, I wanted to improve my ability to analyze literature,
+                  recognize different themes, and understand how literary works reflect human experiences.</p>
+                <p>I also hoped to develop my critical thinking skills and become more open to different perspectives.
+                  Through this subject, I have learned that literature is not only about reading stories but also about
+                  understanding the lessons, ideas, and experiences they share with readers.</p>
+              </div>
+            </div>
+
+          </div><!-- /profile-content -->
+
+        </div><!-- /profile-layout -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <span class="brand__label">Great Books / Digital Portfolio</span>
+          </a>
+          <p>A Great Books final project by Earl Lawrence C. Cipres. BSIT 4th Year - GEC-GB-NRt.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer portfolio sections">
+          <h4>Portfolio</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Student Profile</a></li>
+            <li><a href="analyses.html">Literary Analyses</a></li>
+            <li><a href="favorite.html">Favorite Masterpiece</a></li>
+            <li><a href="learning.html">Summary of Learning</a></li>
+            <li><a href="reflection.html">Personal Reflection</a></li>
+          </ul>
+        </nav>
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="sources.html">Sources &amp; Acknowledgments</a></li>
+            <li><a href="analyses.html">Literary Archive</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Earl Lawrence C. Cipres - Great Books Digital Portfolio. All rights reserved.</p>
+        <p>GEC-GB-NRt &nbsp;|&nbsp; BSIT 4th Year</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
